@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(/images/background.jpg);
+    background-size: cover;
+}
+.navbar{
+    width: 96vw;
+    background-color: rgb(145, 160, 167,0.5);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+}
+.navbar .logo{
+    text-decoration: none;
+    font-size:45px;
+    color: rgb(232, 248, 7);
+}
+.dot{
+    size: 40px;
+    color: rgb(252, 217, 20);
+}
+.navbar ul{
+    display: flex;
+}
+.navbar li{
+    text-decoration: none;
+    list-style: none;
+    padding-top: 16px;
+}
+.navbar li a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 1.2rem;
+    color: rgb(250, 246, 2);
+}
+.navbar li a:hover{
+    background-color: #0e0c0c;
+    color: #faf9f9;
+    border-radius: 18px;
+}
+.rakim{
+    display: flex;
+    padding: 8%;
+    padding-top: 15%;
+    justify-content: space-between;
+}
+ .about{
+    width: 600px;
+}
+.h-primary{
+    padding-bottom: 20px;
+    color: aqua;
+}
+.h3-primary{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 38, 0);
+}
+.exp{
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    color: #faf9f9;
+}
+
+#card-ab{
+    padding: 15px;
+    background-color: rgb(40, 59, 59);
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
+    text-align: center;
+}
+#card-ab:hover{
+    background-color: rgb(205, 228, 3);
+    color: #0e0c0c;
+    cursor: cell;
+}
+#card-ac{
+    padding: 15px;
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: chocolate;
+}
+#card-ac:hover{
+    background-color: darkblue;
+    color: aqua;
+    cursor: cell;
+}
+#card-ad{
+    padding: 15px;
+    background-color: cadetblue;
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
+    text-align: center;
+    color: #faf9f9;
+}
+#card-ad:hover{
+    background-color: coral;
+    color: #0e0c0c;
+    cursor: cell;
+}
+.white-card{
+    background-color: #0a0a0a;
+    color: #faf9f9;
+    border-radius: 25px;
+    width: 450px;
+    height: 300px;
+    margin: auto;
+    margin-top: 3%;
+    text-align: center;
+    padding-top: 70px;
+    margin-bottom: 50px;
+}
+.white-card:hover{
+    background-color: crimson;
+    color: #0a0a0a;
+}
+.w-card{
+    padding-bottom: 30px;
+}
+footer{
+    display: flex;
+    background-color: #0e0c0c;
+    color: #faf9f9;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a i{
+  padding: 10px;
+  font-size: 36px;
+}
