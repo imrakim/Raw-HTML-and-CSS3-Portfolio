@@ -46,3 +46,36 @@ body{
     text-align: center;
     padding-top:12% ;
 }
+.form{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 1.4rem;
+}
+.form .border{
+    padding: 5px;
+    border-radius: 12px;
+    color: darkorange;
+    border: 1px solid darkorange;
+}
+.form .fmbtn{
+    font-size: 15px;
+    border-radius: 12px;
+    background-color: rgb(231, 208, 179,0.6);
+    border: 1px solid darkorange;
+    margin-top: 8px;
+    padding: 6px;
+}
+footer{
+    display: flex;
+    background-color: #0e0c0c;
+    color: #faf9f9;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+}
+
+footer a i{
+  padding: 10px;
+  font-size: 36px;
+}
