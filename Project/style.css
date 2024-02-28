@@ -64,6 +64,10 @@ body{
 .card-a:hover{
    background-color: blue;
 }
+.card-a .btn a{
+    text-decoration: none;
+    font-size: 16px;
+}
 .card-b{
     text-align: center;
     padding: 15px;
@@ -74,6 +78,10 @@ body{
 }
 .card-b:hover{
     background-color: coral;
+}
+.card-b .btn a{
+    text-decoration: none;
+    font-size: 16px;
 }
 .card-c{
     text-align: center;
@@ -86,6 +94,10 @@ body{
 .card-c:hover{
     background-color: fuchsia;
 }
+.card-c .btn a{
+    text-decoration: none;
+    font-size: 16px;
+}
 .card-d{
     text-align: center;
     padding: 15px;
@@ -96,6 +108,10 @@ body{
 }
 .card-d:hover{
     background-color: chocolate;
+}
+.card-d .btn a{
+    text-decoration: none;
+    font-size: 16px;
 }
 .card2{
     padding-top: 5%;
